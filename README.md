@@ -1,5 +1,7 @@
 # MedAgenda
 
+**▶ Testar online:** https://samuel-63.github.io/-med_agenda/ (conta demo: `lucas@medagenda.app` / `senha123`)
+
 App em Flutter para **marcar consultas médicas**: o paciente cria a conta, encontra
 um profissional (por nome, especialidade ou teleconsulta), escolhe dia e horário na
 agenda semanal, define se quer atendimento presencial ou online e acompanha ou
@@ -140,3 +142,11 @@ flutter test capturas --update-goldens
 
 Flutter · Dart 3 (sealed classes, pattern matching, records) · Material 3 ·
 `flutter_localizations` (calendário em português)
+
+## Publicar no GitHub Pages
+
+```bash
+MSYS_NO_PATHCONV=1 flutter build web --release --base-href "/-med_agenda/"
+```
+
+Depois envie o conteúdo de `build/web` (com um arquivo `.nojekyll`) para a branch `gh-pages`.
