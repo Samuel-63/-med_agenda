@@ -1,0 +1,174 @@
+{
+  "pacientes": [
+    {
+      "id": "p-001",
+      "nome": "Lucas Andrade",
+      "email": "lucas@medagenda.app",
+      "celular": "62991234567",
+      "nascimento": "1998-04-17",
+      "senha": "senha123"
+    }
+  ],
+  "especialidades": [
+    { "id": "clinico", "nome": "Clínico geral", "icone": "stethoscope" },
+    { "id": "cardio", "nome": "Cardiologia", "icone": "heart" },
+    { "id": "gineco", "nome": "Ginecologia", "icone": "female" },
+    { "id": "psiq", "nome": "Psiquiatria", "icone": "mind" },
+    { "id": "endocrino", "nome": "Endocrinologia", "icone": "drop" },
+    { "id": "otorrino", "nome": "Otorrino", "icone": "ear" },
+    { "id": "derma", "nome": "Dermatologia", "icone": "skin" },
+    { "id": "nutri", "nome": "Nutrição", "icone": "food" }
+  ],
+  "medicos": [
+    {
+      "id": "m-01",
+      "nome": "Dr. Fernando Batista",
+      "especialidadeId": "clinico",
+      "registro": "CRM-GO 20114",
+      "nota": 4.8,
+      "avaliacoes": 212,
+      "valor": 150,
+      "teleconsulta": true,
+      "sobre": "Clínico geral há 9 anos. Atende check-ups, dores agudas e acompanhamento de doenças crônicas.",
+      "agenda": { "diasSemana": [1, 2, 3, 4, 5], "inicio": "08:00", "fim": "12:00", "duracao": 30 }
+    },
+    {
+      "id": "m-02",
+      "nome": "Dra. Patrícia Nunes",
+      "especialidadeId": "cardio",
+      "registro": "CRM-GO 18452",
+      "nota": 4.9,
+      "avaliacoes": 341,
+      "valor": 280,
+      "teleconsulta": false,
+      "sobre": "Cardiologista com foco em hipertensão, arritmias e avaliação pré-operatória.",
+      "agenda": { "diasSemana": [1, 3, 5], "inicio": "13:00", "fim": "18:00", "duracao": 30 }
+    },
+    {
+      "id": "m-03",
+      "nome": "Dra. Juliana Moreira",
+      "especialidadeId": "gineco",
+      "registro": "CRM-GO 23007",
+      "nota": 4.7,
+      "avaliacoes": 158,
+      "valor": 230,
+      "teleconsulta": true,
+      "sobre": "Ginecologista e obstetra. Pré-natal, contracepção e saúde da mulher em todas as fases.",
+      "agenda": { "diasSemana": [2, 4], "inicio": "08:00", "fim": "17:00", "duracao": 60 }
+    },
+    {
+      "id": "m-04",
+      "nome": "Dr. Henrique Salles",
+      "especialidadeId": "psiq",
+      "registro": "CRM-GO 15530",
+      "nota": 4.9,
+      "avaliacoes": 97,
+      "valor": 320,
+      "teleconsulta": true,
+      "sobre": "Psiquiatra. Ansiedade, depressão, TDAH e distúrbios do sono, com atendimento online.",
+      "agenda": { "diasSemana": [1, 2, 3, 4], "inicio": "14:00", "fim": "20:00", "duracao": 60 }
+    },
+    {
+      "id": "m-05",
+      "nome": "Dra. Camila Rocha",
+      "especialidadeId": "endocrino",
+      "registro": "CRM-GO 21876",
+      "nota": 4.6,
+      "avaliacoes": 120,
+      "valor": 260,
+      "teleconsulta": true,
+      "sobre": "Endocrinologista. Diabetes, tireoide, obesidade e reposição hormonal.",
+      "agenda": { "diasSemana": [3, 4, 5], "inicio": "07:30", "fim": "11:30", "duracao": 30 }
+    },
+    {
+      "id": "m-06",
+      "nome": "Dr. Otávio Prado",
+      "especialidadeId": "otorrino",
+      "registro": "CRM-GO 17321",
+      "nota": 4.5,
+      "avaliacoes": 74,
+      "valor": 210,
+      "teleconsulta": false,
+      "sobre": "Otorrinolaringologista. Sinusite, rinite, perda auditiva e zumbido.",
+      "agenda": { "diasSemana": [1, 5, 6], "inicio": "08:00", "fim": "12:00", "duracao": 40 }
+    },
+    {
+      "id": "m-07",
+      "nome": "Dra. Bianca Teles",
+      "especialidadeId": "derma",
+      "registro": "CRM-GO 24410",
+      "nota": 4.8,
+      "avaliacoes": 189,
+      "valor": 240,
+      "teleconsulta": false,
+      "sobre": "Dermatologista. Acne, queda de cabelo, manchas e mapeamento de pintas.",
+      "agenda": { "diasSemana": [2, 3, 5], "inicio": "09:00", "fim": "16:00", "duracao": 30 }
+    },
+    {
+      "id": "m-08",
+      "nome": "Rafaela Gomes",
+      "especialidadeId": "nutri",
+      "registro": "CRN-1 9921",
+      "nota": 4.7,
+      "avaliacoes": 66,
+      "valor": 140,
+      "teleconsulta": true,
+      "sobre": "Nutricionista clínica e esportiva. Reeducação alimentar e planos personalizados.",
+      "agenda": { "diasSemana": [1, 2, 3, 4, 5, 6], "inicio": "10:00", "fim": "15:00", "duracao": 45 }
+    },
+    {
+      "id": "m-09",
+      "nome": "Dr. Marcos Vieira",
+      "especialidadeId": "cardio",
+      "registro": "CRM-GO 12990",
+      "nota": 4.4,
+      "avaliacoes": 53,
+      "valor": 250,
+      "teleconsulta": true,
+      "sobre": "Cardiologista clínico. Prevenção cardiovascular e controle de colesterol.",
+      "agenda": { "diasSemana": [2, 4, 6], "inicio": "08:00", "fim": "11:00", "duracao": 30 }
+    }
+  ],
+  "consultas": [
+    {
+      "id": "c-001",
+      "pacienteId": "p-001",
+      "medicoId": "m-02",
+      "diasAPartirDeHoje": 2,
+      "hora": "14:30",
+      "modalidade": "presencial",
+      "motivo": "Retorno com exames",
+      "situacao": "agendada"
+    },
+    {
+      "id": "c-002",
+      "pacienteId": "p-001",
+      "medicoId": "m-08",
+      "diasAPartirDeHoje": 9,
+      "hora": "11:30",
+      "modalidade": "teleconsulta",
+      "motivo": null,
+      "situacao": "agendada"
+    },
+    {
+      "id": "c-003",
+      "pacienteId": "p-001",
+      "medicoId": "m-01",
+      "diasAPartirDeHoje": -12,
+      "hora": "09:00",
+      "modalidade": "presencial",
+      "motivo": "Check-up",
+      "situacao": "agendada"
+    },
+    {
+      "id": "c-004",
+      "pacienteId": "p-001",
+      "medicoId": "m-07",
+      "diasAPartirDeHoje": -20,
+      "hora": "10:30",
+      "modalidade": "presencial",
+      "motivo": null,
+      "situacao": "cancelada"
+    }
+  ]
+}
